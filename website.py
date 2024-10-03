@@ -135,7 +135,7 @@ with slt.container():
     image_column, text_column = slt.columns((1, 2))
 
     with image_column:
-        bigimage = Image.open(imkebir1.jpg")
+        bigimage = Image.open("imkebir1.jpg")
         slt.image(bigimage, use_column_width=True)  # Utilise la largeur de la colonne
 
     with text_column:
