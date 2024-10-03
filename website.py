@@ -30,60 +30,6 @@ slt.markdown(
 # Contenu principal de l'application
 slt.title("Bienvenue sur Bint Kebir")
 slt.write("Numéro: +223 70715573.")
-st.markdown("""
-<style>
-h1 {
-    color: #4a90e2;
-    text-align: center;
-}
-
-h2 {
-    color: #d9534f;
-}
-
-h3 {
-    color: #5bc0de;
-}
-
-p {
-    font-size: 18px;
-    line-height: 1.6;
-    text-align: justify;
-}
-
-.container {
-    background-color: #f9f9f9;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
-</style>
-""", unsafe_allow_html=True)
-
-# Contenu principal
-st.markdown("""
-<div class="container">
-    <h1>Bienvenue sur Bint Kebir - L'Essence du Luxe et de la Tradition</h1>
-    <p>Chez <strong>Bint Kebir</strong>, nous croyons que chaque produit est bien plus qu'un simple objet : c'est une expérience. Nous vous invitons à découvrir une gamme unique de produits qui incarnent la beauté, l'élégance et la richesse des traditions. Que vous recherchiez des parfums exquis, des épices authentiques, ou des woussoula soigneusement fabriqués, chaque article de notre boutique raconte une histoire fascinante.</p>
-
-    <h2>Pourquoi choisir Bint Kebir ?</h2>
-
-    <h3>Des Parfums qui éveillent vos sens</h3>
-    <p>Nos parfums sont élaborés avec les ingrédients les plus fins, apportant une sophistication subtile à votre quotidien. Chaque senteur est soigneusement choisie pour révéler une harmonie de fragrances envoûtantes qui laissent une empreinte mémorable.</p>
-
-    <h3>Des Épices authentiques pour sublimer vos plats</h3>
-    <p>Nous sélectionnons des épices rares et de qualité exceptionnelle. Chaque grain d’épice est un concentré de saveurs, prêt à transformer vos repas en véritables festins de goût.</p>
-
-    <h3>Des Woussoula pour une beauté naturelle et éclatante</h3>
-    <p>Enracinés dans des rituels de beauté ancestraux, nos woussoula sont conçus pour révéler et magnifier votre beauté naturelle. Leur douceur et leur efficacité en font un soin incontournable pour la peau et les cheveux.</p>
-
-    <h2>Notre Engagement</h2>
-    <p>Chez <strong>Bint Kebir</strong>, nous nous engageons à vous offrir des produits d'une qualité exceptionnelle tout en respectant les traditions et l’artisanat. Nous travaillons main dans la main avec des artisans talentueux qui partagent notre passion pour l’authenticité et le respect des matières premières.</p>
-
-    <h2>Découvrez Nos Collections Exclusives</h2>
-    <p>Ne manquez pas nos collections limitées qui captivent l'essence du luxe et de l'authenticité. Chaque produit est conçu pour vous offrir une expérience unique, de l'élégance des parfums à la richesse des épices, en passant par les soins naturels de nos woussoula.</p>
-</div>
-""", unsafe_allow_html=True)
 
 ### FONCTIONS UTILES
 def load_lottiefile(filepath: str):
