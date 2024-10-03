@@ -4,7 +4,7 @@ import json
 from streamlit_lottie import st_lottie
 
 ### CONFIGURATION DE LA PAGE
-slt.set_page_config(page_title="Bint Kebir.com", page_icon=r"C:\Users\Lenovo\Desktop\python prési\kebir.jpg", layout="wide")
+slt.set_page_config(page_title="Bint Kebir.com", page_icon="kebir.jpg", layout="wide")
 
 # Ajouter le filigrane avec le texte "Bint Kebir"
 slt.markdown(
@@ -124,7 +124,7 @@ with slt.container():
         """, unsafe_allow_html=True)
 
     with right_column:
-        lottie_coding = load_lottiefile(r"C:\Users\Lenovo\Desktop\python prési\animation.json")
+        lottie_coding = load_lottiefile("animation.json")
         st_lottie(lottie_coding, height=300)
 
 ### SECTION AVEC IMAGE ET TEXTE
@@ -135,7 +135,7 @@ with slt.container():
     image_column, text_column = slt.columns((1, 2))
 
     with image_column:
-        bigimage = Image.open(r"C:\Users\Lenovo\Desktop\python prési\imkebir1.jpg")
+        bigimage = Image.open(imkebir1.jpg")
         slt.image(bigimage, use_column_width=True)  # Utilise la largeur de la colonne
 
     with text_column:
@@ -173,7 +173,7 @@ slt.markdown(
 
 # Image 1 avec cadre et prix stylisé (format rectangulaire)
 with image1:
-    big_image = Image.open(r"C:\Users\Lenovo\Desktop\python prési\imkebir2.jpg")
+    big_image = Image.open("imkebir2.jpg")
     slt.image(big_image, use_column_width=True)  # Utilise la largeur de la colonne
     slt.markdown("""
         <div class="image-box">
@@ -183,7 +183,7 @@ with image1:
 
 # Image 2 avec cadre et prix stylisé (format rectangulaire)
 with image2:
-    big_image2 = Image.open(r"C:\Users\Lenovo\Desktop\python prési\imkebir3.jpg")
+    big_image2 = Image.open("imkebir3.jpg")
     slt.image(big_image2, use_column_width=True)  # Utilise la largeur de la colonne
     slt.markdown("""
         <div class="image-box">
