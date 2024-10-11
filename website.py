@@ -96,7 +96,7 @@ with slt.container():
         <div class="centered">
             <p>Chez <span class="highlight">Bint Kebir</span>, nous vendons des parfums, épices de toutes sortes et <span class="highlight">woussoula</span>.</p>
             <p>Contactez-nous :</p>
-            <p><a class="links" href="https://www.tiktok.com/@bintkebir" target="_blank">
+            <p><a class="links" href="https://https://www.tiktok.com/tag/bintkebir target="_blank">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/TikTok_logo_black.svg" alt="TikTok Icon"> Sur TikTok</a>
             </p>
             <p><a class="links" href="https://wa.me/22370715573" target="_blank">
